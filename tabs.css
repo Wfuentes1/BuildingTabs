@@ -1,8 +1,8 @@
-div[class$="nav-tab"] {
+div.nav-tab {
   background-color: skyblue;
   border-style: solid;
 }
-a.href [class$="navigation"]{
+a.navigation{
   text-decoration: none;
   color: crimson;
 }
