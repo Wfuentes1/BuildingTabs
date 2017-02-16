@@ -1,4 +1,11 @@
-div nav-tab{
+div[class$="nav-tab"] {
   background-color: skyblue;
-  border-style:solid;
+  border-style: solid;
+}
+a.href [class$="navigation"]{
+  text-decoration: none;
+  color: crimson;
+}
+.nav-tab:hover{
+  background-color: yellow
 }
